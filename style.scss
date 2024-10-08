@@ -1,0 +1,29 @@
+$a:#d4af37;
+$b:black;
+
+
+thead{
+    tr{
+        th{
+            border: 2px solid white;
+            padding:20px;
+            color:$b;
+            background-color: $a;
+            
+        }
+    }
+}
+tbody{
+    tr{
+        td{
+            border: 2px solid white;
+            padding:20px;
+            color:$a;
+            background-color: $b;
+           
+        }
+    }
+}
+table{
+    border-collapse: collapse;
+}
